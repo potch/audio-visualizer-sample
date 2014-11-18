@@ -6,9 +6,7 @@
     var senderDaemon = null;
     var deviceIp = "10.0.0.35";
     var msgChannel = null;
-    var appUrl = "http://10.0.0.6:8080/receiver_app/";
-    var inputDiv = document.querySelector("#input-container");
-
+    var appUrl = "http://potch.github.io/audio-visualizer-sample/receiver_app/";    
 
     senderDaemon = new SenderDaemon(deviceIp, appid);
     senderDaemon.openApp(appUrl, -1, true);
